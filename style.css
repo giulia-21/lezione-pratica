@@ -1,0 +1,218 @@
+body {
+	font-family: 'Playfair Display', serif;
+	margin: auto;
+	padding: 0;	
+	background-color: #b7937a;		
+}
+
+header {
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	position:absolute;
+	width:100%;
+	z-index:1
+}
+
+footer {
+display:inline-block;
+width:100%;
+height:190px
+
+}
+
+
+.logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.logo img {
+	width: 270px;
+}
+
+nav{
+	
+	margin: auto;
+	
+}
+
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin-right: 40px;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+	font-size:20px;
+}
+
+nav a:hover {
+	color: #666;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+.blue{ background: rgb(118,160,255);
+background: linear-gradient(0deg, rgba(118,160,255,0.7147233893557423) 1%, rgba(40,61,109,1) 100%);
+color:white}
+
+.arancio{background: rgb(255,141,104);
+background: linear-gradient(0deg, rgba(255,141,104,0.83) 1%, rgba(240,105,62,1) 100%);
+color:white}
+
+.verde{background: rgb(58,182,58);
+background: linear-gradient(0deg, rgba(58,182,58,0.55) 1%, rgba(27,75,27,1) 100%);
+color:white}
+
+.vinaccio{background: rgb(255,103,111);
+background: linear-gradient(0deg, rgba(255,103,111,0.8197872899159664) 1%, rgba(142,30,35,1) 100%);
+color:white}
+
+.turchese{background: rgb(76,168,163);
+background: linear-gradient(0deg, rgba(76,168,163,0.4808517156862745) 0%, rgba(76,168,163,1) 100%);
+color:white
+}
+
+.fucsia{
+background: rgb(255,142,210);
+background: linear-gradient(0deg, rgba(255,142,210,1) 0%, rgba(198,1,119,1) 100%);
+color:white
+}
+
+
+.bianco a {color:white}
+
+.menu_destra {position:absolute; right:10px;top:6px}
+
+.menu_destra a {color:white}
+
+.menu_destra li {margin-right: 20px;}
+
+.titolo_artista {
+font-size:65px;
+text-decoration:underline;
+text-align:center;
+}
+.immagine_fluida
+{max-width:100%;
+margin:auto}
+
+.griglia {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 50px;
+grid-row-gap: 24px;
+
+}
+
+.div1sx { grid-area: 1 / 1 / 2 / 2; }
+.div1dx { grid-area: 1 / 2 / 2 / 3; padding-top:30%;}
+.div2sx { grid-area: 2 / 1 / 3 / 2; padding-top:30%;}
+.div2dx { grid-area: 2 / 2 / 3 / 3; }
+.div3sx { grid-area: 3 / 1 / 4 / 2; }
+.div3dx { grid-area: 3 / 2 / 4 / 3; padding-top:30%;}
+
+.testo_30{
+font-size:30px;
+font-family: 'Raleway', sans-serif;
+ }
+
+.testo_20{
+font-size:20px;
+font-family: 'Raleway', sans-serif;
+ }
+
+
+.footer_blue {background: #17213b;color:white;}
+.footer_marrone {background: #413728;color:white;}
+.footer_arancio {background: #AF421F;color:white;}
+.footer_verde {background: #0B1F0B;color:white;}
+.footer_vinaccio {background: #460e11;color:white;}
+.footer_turchese {background: #22504d;color:white;}
+.footer_fucsia {background: #670740;color:white;}
+
+
+
+.colonna_footer{
+width:33%;
+text-align:center;
+float:left;
+margin-top:30px
+
+}
+
+.scarabocchio
+{margin:30px 0 30px 0}
+
+
+.griglia_home {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat( 1fr);
+grid-column-gap: 9px;
+grid-row-gap: 48px;
+width:75%;
+margin:auto;
+}
+
+.div_home_1 { grid-area: 1 / 1 / 2 / 2; }
+.div_home_2 { grid-area: 1 / 2 / 2 / 3; }
+.div_home_3 { grid-area: 2 / 1 / 3 / 2; }
+.div_home_4 { grid-area: 2 / 2 / 3 / 3; }
+.div_home_5 { grid-area: 3 / 1 / 4 / 2; }
+.div_home_6 { grid-area: 3 / 2 / 4 / 3; }
+.div_home_7 { grid-area: 4 / 1 / 5 / 2; }
+.div_home_8 { grid-area: 4 / 2 / 5 / 3; }
+.div_home_9 { grid-area: 5 / 1 / 6 / 2; }
+.div_home_10 { grid-area: 5 / 2 / 6 / 3; }
+.div_home_11 { grid-area: 6 / 1 / 7 / 2; }
+.div_home_12 { grid-area: 6 / 2 / 7 / 3; }
+
+.griglia_home a {color:black}
+
+
+.separatore{height:80px}
+
+.div_chisiamo_1 { grid-area: 1 / 1 / 2 / 2; padding: 70px; color: white;}
+.div_chisiamo_2 { grid-area: 1 / 2 / 2 / 3; }
+.div_chisiamo_3 { grid-area: 2 / 1 / 3 / 2; }
+.div_chisiamo_4 { grid-area: 2 / 2 / 3 / 3; padding: 70px;color: white;}
+.div_chisiamo_5 { grid-area: 3 / 1 / 4 / 2; padding: 70px;color: white;}
+.div_chisiamo_6 { grid-area: 3 / 2 / 4 / 3; }
+.div_chisiamo_7 { grid-area: 4 / 1 / 5 / 2; }
+.div_chisiamo_8 { grid-area: 4 / 2 / 5 / 3; padding: 70px;color: white;}
+.div_chisiamo_9 { grid-area: 5 / 1 / 6 / 2; padding: 70px;color: white;}
+.div_chisiamo_10 { grid-area: 5 / 2 / 6 / 3; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
